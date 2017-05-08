@@ -325,7 +325,7 @@ $(function(){
         beauteful4p[next].style.top=30+'px';
         animate(beauteful4p[curren],{top:-30});
         animate(beauteful4p[next],{top:0});
-        console.log(beauteful4p[curren])
+        // console.log(beauteful4p[curren])
         curren=next;
     }
     }

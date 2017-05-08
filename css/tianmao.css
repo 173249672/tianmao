@@ -89,7 +89,10 @@ aside .iconfont:before{
 	font-size: 20px;
 }
 .aside4{
-	transform: translateY(200%);
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
 }
 .aside4 i{
 	margin-top: 20px;
@@ -967,15 +970,19 @@ aside i:hover .asideson9{
 	padding-left: 30px;
 	box-sizing: border-box;
 }
+
 .liuxing{
-	width: 492px;
+	width: 500px;
 	padding: 10px 0px;
 	float: right;
 	/* background: red; */
-	margin-right: 30px;
+	margin-right: 28px;
 	border-bottom: 1px dashed #E6E6E6;
 	line-height: 20px;
 	box-sizing: border-box; 
+}
+.henglaleft li:last-child .liuxing{
+	border: 0;
 }
 .liuxing a{
 	font-size: 14px;

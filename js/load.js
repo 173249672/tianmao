@@ -71,7 +71,7 @@ for (let i = 0; i < beautefuls.length; i++) {
       asidetwo[n+1].style.background='rgba(0,0,0,.6)';
       asidetwo[7].style.background='rgba(0,0,0,.6)';
       asidetwo[i+1]=aCl(i+1);
-      animate(document.body,{scrollTop:arr[i]-50},function(){flag=true});
+      animate(document.body,{scrollTop:arr[i]-60},function(){flag=true});
     }    
     n=i;
 }
@@ -97,10 +97,10 @@ asidetwo[i].onmouseout=function(){
   if (i==n+1) {
         return;
       }
-  if((i==7)&&(n==7)){
-      asidetwo[7].style.background='#DD2727';
-      return;
-    }
+  // if((i==7)&&(n==7)){
+  //     asidetwo[7].style.background='#DD2727';
+  //     return;
+  //   }
    asidetwo[i].style.background='rgba(0,0,0,.6)'
 }
 //鼠标移入时
@@ -110,7 +110,7 @@ asidetwo[i].onmouseover=function(){
   }
     aCl(i)
 }
-
+  n=i;
 }
 window.onscroll=function(){
   if (!flag) {
@@ -120,11 +120,14 @@ window.onscroll=function(){
 	let tops=document.body.scrollTop;
 	arr.forEach(function(value,index){
     if (tops + ch > value+400) {
+      if(n=7){
+        n-=1;
+      }
         asidetwo[n+1].style.background='rgba(0,0,0,.6)';
         asidetwo[index+1]=aCl(index+1);
         n=index;
     }
-    if (tops + ch < value+400) {
+    if (tops + ch < value+470) {
         asidetwo[index+1].style.background='rgba(0,0,0,.6)';
     }
     if (tops + ch > value+1000) {
