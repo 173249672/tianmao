@@ -70,6 +70,7 @@ for (let i = 0; i < beautefuls.length; i++) {
       flag=false;
       asidetwo[n+1].style.background='rgba(0,0,0,.6)';
       asidetwo[7].style.background='rgba(0,0,0,.6)';
+      asidetwo[8].style.background='rgba(0,0,0,.3)';
       asidetwo[i+1]=aCl(i+1);
       animate(document.body,{scrollTop:arr[i]-60},function(){flag=true});
     }    
@@ -97,10 +98,10 @@ asidetwo[i].onmouseout=function(){
   if (i==n+1) {
         return;
       }
-  // if((i==7)&&(n==7)){
-  //     asidetwo[7].style.background='#DD2727';
-  //     return;
-  //   }
+  if((i==7)&&(n==7)){
+      asidetwo[7].style.background='#DD2727';
+      return;
+    }
    asidetwo[i].style.background='rgba(0,0,0,.6)'
 }
 //鼠标移入时

@@ -58,7 +58,8 @@ aside{
 	font-size: 13px;
 }
 .aside3{
-	height: 25px;
+	width: 100%;
+	height: 35px;
 	transition: 0.5s;
 }
 .aside3 a{
@@ -67,10 +68,12 @@ aside{
 }
 /* 27 */
 aside i{
-	height: 25px;
+	width: 100%;
+	height: 35px;
 	display: block;
 	margin-top: 27px;
 	transition: all 0.5s;
+	line-height: 35px;
 }
 /* aside i:hover{
 	background: tr;
