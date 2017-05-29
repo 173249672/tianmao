@@ -922,17 +922,228 @@ aside i:hover .asideson9{
 /* .banner-left:hover{
 	background: transparent;
 } */
-.banner-left:hover a{
-    color: #735AEF;
+.banner-left:first-child:hover a{
+    color: #e54077;
 }
+.banner-left:first-child:hover span{
+	color: #e54077;
+}
+.banner-left:first-child:hover .iconfont{
+	color: #e54077;
+}
+.banner-left:first-child:hover .liuxing a:hover{
+	color: #e54077;
+}
+
+.banner-left:nth-child(2):hover a{
+	color: #427def;
+}
+.banner-left:nth-child(2):hover span{
+	color: #427def;
+}
+.banner-left:nth-child(2):hover .iconfont{
+	color: #427def;
+}
+.banner-left:nth-child(2):hover .liuxing a:hover{
+	color: #427def;
+}
+
+.banner-left:nth-child(3):hover a{
+	color: #6347ed;
+}
+.banner-left:nth-child(3):hover span{
+	color: #6347ed;
+}
+.banner-left:nth-child(3):hover .iconfont{
+	color: #6347ed;
+}
+.banner-left:nth-child(3):hover .liuxing a:hover{
+	color: #6347ed;
+}
+
+.banner-left:nth-child(4):hover a{
+	color: #e54077;
+}
+.banner-left:nth-child(4):hover span{
+	color: #e54077;
+}
+.banner-left:nth-child(4):hover .iconfont{
+	color: #e54077;
+}
+.banner-left:nth-child(4):hover .liuxing a:hover{
+	color: #e54077;
+}
+
+
+.banner-left:nth-child(5):hover a{
+	color: #427def;
+}
+.banner-left:nth-child(5):hover span{
+	color: #427def;
+}
+.banner-left:nth-child(5):hover .iconfont{
+	color: #427def;
+}
+.banner-left:nth-child(5):hover .liuxing a:hover{
+	color: #427def;
+}
+
+.banner-left:nth-child(6):hover a{
+	color: #6347ed;
+}
+.banner-left:nth-child(6):hover span{
+	color: #6347ed;
+}
+.banner-left:nth-child(6):hover .iconfont{
+	color: #6347ed;
+}
+.banner-left:nth-child(6):hover .liuxing a:hover{
+	color: #6347ed;
+}
+
+.banner-left:nth-child(7):hover a{
+	color: #fa5c5c;
+}
+.banner-left:nth-child(7):hover span{
+	color: #fa5c5c;
+}
+.banner-left:nth-child(7):hover .iconfont{
+	color: #fa5c5c;
+}
+.banner-left:nth-child(7):hover .liuxing a:hover{
+	color: #fa5c5c;
+}
+
+.banner-left:nth-child(8):hover a{
+	color: #f7a831;
+}
+.banner-left:nth-child(8):hover span{
+	color: #f7a831;
+}
+.banner-left:nth-child(8):hover .iconfont{
+	color: #f7a831;
+}
+.banner-left:nth-child(8):hover .liuxing a:hover{
+	color: #f7a831;
+}
+
+.banner-left:nth-child(9):hover a{
+	color: #f7a831;
+}
+.banner-left:nth-child(9):hover span{
+	color: #f7a831;
+}
+.banner-left:nth-child(9):hover .iconfont{
+	color: #f7a831;
+}
+.banner-left:nth-child(9):hover .liuxing a:hover{
+	color: #f7a831;
+}
+
+
+.banner-left:nth-child(10):hover a{
+	color: #427def;
+}
+.banner-left:nth-child(10):hover span{
+	color: #427def;
+}
+.banner-left:nth-child(10):hover .iconfont{
+	color: #427def;
+}
+.banner-left:nth-child(10):hover .liuxing a:hover{
+	color: #427def;
+}
+
+.banner-left:nth-child(11):hover a{
+	color: #dd2727;
+}
+.banner-left:nth-child(11):hover span{
+	color: #dd2727;
+}
+.banner-left:nth-child(11):hover .iconfont{
+	color: #dd2727;
+}
+.banner-left:nth-child(11):hover .liuxing a:hover{
+	color: #dd2727;
+}
+
+.banner-left:nth-child(12):hover a{
+	color: #427def;
+}
+.banner-left:nth-child(12):hover span{
+	color: #427def;
+}
+.banner-left:nth-child(12):hover .iconfont{
+	color: #427def;
+}
+.banner-left:nth-child(12):hover .liuxing a:hover{
+	color: #427def;
+}
+
+.banner-left:nth-child(13):hover a{
+	color: #f7a831;
+}
+.banner-left:nth-child(13):hover span{
+	color: #f7a831;
+}
+.banner-left:nth-child(13):hover .iconfont{
+	color: #f7a831;
+}
+.banner-left:nth-child(13):hover .liuxing a:hover{
+	color: #f7a831;
+}
+
+.banner-left:nth-child(14):hover a{
+	color: #3bc7b0;
+}
+.banner-left:nth-child(14):hover span{
+	color: #3bc7b0;
+}
+.banner-left:nth-child(14):hover .iconfont{
+	color: #3bc7b0;
+}
+.banner-left:nth-child(14):hover .liuxing a:hover{
+	color: #3bc7b0;
+}
+
+
+.banner-left:nth-child(15):hover a{
+	color: #dd2727;
+}
+.banner-left:nth-child(15):hover span{
+	color: #dd2727;
+}
+.banner-left:nth-child(15):hover .iconfont{
+	color: #dd2727;
+}
+.banner-left:nth-child(15):hover .liuxing a:hover{
+	color: #dd2727;
+}
+
+
+.banner-left:nth-child(16):hover a{
+	color: #3bc7b0;
+}
+.banner-left:nth-child(16):hover span{
+	color: #3bc7b0;
+}
+.banner-left:nth-child(16):hover .iconfont{
+	color: #3bc7b0;
+}
+.banner-left:nth-child(16):hover .liuxing a:hover{
+	color: #3bc7b0;
+}
+
+
+
+
+
+
+
+
+
 .banner-left:hover .hengla a{
     color: #000000;
-}
-.banner-left:hover span{
-    color: #735AEF;
-}
-.banner-left:hover .iconfont{
-    color: #735AEF;
 }
 
 .hengla{
@@ -991,9 +1202,7 @@ aside i:hover .asideson9{
 	font-size: 14px;
 	margin-right: 10px;
 }
-.banner-left .liuxing a:hover{
-	color: #735AEF;
-}
+
 /* 492*75 */
 /* .banner-left:hover .hengla{
 	display: block;

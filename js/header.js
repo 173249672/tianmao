@@ -6,7 +6,7 @@ $(function(){
 	// console.log(asideI)
 	for (let i = 0; i < asideI.length; i++) {
 		asideI[i].onmouseover=function(){
-			asideI[i].style.background="#C40000";
+			asideI[i].style.background="#c40805";
 		}
 		asideI[i].onmouseout=function(){
 			asideI[i].style.background="transparent";
